@@ -6,34 +6,41 @@
 <title>Екатерина Бароева психолог</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<link rel="stylesheet" href="https://wowjs.uk/css/libs/animate.css">
 
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
-    <header>
+    <div class="wrapper">
+    <header class="fixed-header">
         <div class="header">
             <div class="container">
                 <div class="header-menu-flex">
                     <div class="header-menu-flex-item">
+                        <div class="header-menu-mobile-opener">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
                     <ul class="header-menu">
-                    <a href="" class="header-menu-link">
+                    <a href="#about" class="header-menu-link">
                         <li>Обо мне</li>
                     </a>
-                    <a href="" class="header-menu-link">
+                    <a href="#education" class="header-menu-link">
                         <li>Образование</li>
                     </a>
-                    <a href="" class="header-menu-link">
+                    <a href="#conditions" class="header-menu-link">
                         <li>Условия</li>
                     </a>
-                    <a href="" class="header-menu-link">
+                    <a href="#contacts" class="header-menu-link">
                         <li>Контакты </li>
                     </a>
                 </ul>
-                <a href="" class="header-menu-icon">
+                <a href="https://wa.me/79101663305" class="header-menu-icon">
                     <img src="image/ws.svg" alt="">
                 </a>
-                <a href="" class="header-menu-icon">
+                <a href="https://tlgg.ru/@everyday365" class="header-menu-icon">
                     <img src="image/telega.svg" alt="">
                 </a>
             </div>
@@ -60,15 +67,37 @@
     
     
     </header>
+            <div class="header-menu-mobile">
+                <div class="header-menu-mobile-in">
+                    <div class="header-menu-mobile-closer">
+                        <img src="image/close.png" alt="close">
+                    </div>
+                    <ul class="header-menu-mobile-list">
+                        <a href="#about" class="header-menu-mobile-link">
+                            <li>Обо мне</li>
+                        </a>
+                        <a href="#education" class="header-menu-mobile-link">
+                            <li>Образование</li>
+                        </a>
+                        <a href="#conditions" class="header-menu-mobile-link">
+                            <li>Условия</li>
+                        </a>
+                        <a href="#contacts" class="header-menu-mobile-link">
+                            <li>Контакты </li>
+                        </a>
+                    </ul>
 
-        <div class="about-block">
+                </div>
+            </div>
+
+        <div id="about" class="about-block">
             <div class="container">
                 <div class="about-block-flex">
-                    <img src="image/photo.jpg" alt="photo">
+                    <img class="wow fadeInLeft" src="image/photo.jpg" alt="photo">
                     <div class="about-block-flex-item">
-                        <h2 class="about-block-flex-item-title">Когнитивно-поведенческий психолог и схема-терапевт</h2>
-                        <span><b> Запросы, с которыми я работаю: </b></span>
-                        <ul  class="about-block-flex-list">
+                        <h2 class="about-block-flex-item-title wow fadeInRight">Когнитивно-поведенческий психолог и схема-терапевт</h2>
+                        <span class="spanB"><b class="wow fadeInRight spanB" data-wow-delay="0.3s"> Запросы, с которыми я работаю: </b></span>
+                        <ul data-wow-delay="0.6s"  class="about-block-flex-list wow fadeInRight">
                             <li>Депрессия </li>
                             <li>Страхи, фобии, тревожные расстройства, панические атаки </li>
                             <li>Конфликты, ссоры и трудности в общении </li>
@@ -77,40 +106,44 @@
                             <li>Сильные эмоции: гнев, стыд, вина </li>
                             <li>Поиск призвания и смысла жизни, вопросы самоопределения </li>
                         </ul>
-                        <span class="about-block-flex-item-span">Консультирую клиентов от 18 лет.</span>
+                        <span data-wow-delay="0.9s" class="about-block-flex-item-span wow fadeInRight">Консультирую клиентов от 18 лет.</span>
                     </div>
                 </div>
             </div>
         </div>
     
-        <div class="education-block">
+        <div id="education" class="education-block">
             <div class="container">
                  <div class="education-block-flex">
-                    <img src="image/books.jpg" alt="books">
+                    <img class="wow fadeInLeft" src="image/books.jpg" alt="books">
 
                     <div class="education-block-flex-item">
 
                         <div class="education-block-flex-item-top">
-                            
-                            <div class="education-item-top">2021. 1-я Всероссийская конференция с международным участием по схема-терапии   </div>
-                            <div class="education-item-top">
-                                2003-2008. Тульский государственный университет.
-                                Специальность: психолог, преподаватель психологии.  
-                            </div>
-                           
-                            <div class="education-item-top">2021. Ассоциация когнитивно-поведенческой психотерапии. 
-                                Теория и практика схема-терапии. </div>
-                            <div class="education-item-top">
+                            <div class="education-item-top-left">
+                                <div data-wow-delay="0.3s" class="education-item-top wow fadeInRight">
+                                    2003-2008. Тульский государственный университет.
+                                    Специальность: психолог, преподаватель психологии.  
+                                </div>
+                                <div data-wow-delay="0.3s" class="education-item-top wow fadeInRight">
                                     2019-2020. Высшая школа психологии. 
                                     Когнитивно-поведенческая психотерапия и психологическое консультирование. 
                             </div>
-                            <div class="education-item-top">2021. CBT форум 2021 </div>
+                            </div>
+                            <div class="education-item-top-right">
+                                <div data-wow-delay="0.6s" class="education-item-top wow fadeInRight">2021. 1-я Всероссийская конференция с международным участием по схема-терапии   </div>
+                            
+                            <div data-wow-delay="0.6s" class="education-item-top wow fadeInRight">2021. Ассоциация когнитивно-поведенческой психотерапии. 
+                                Теория и практика схема-терапии. </div>
+                            
+                            <div data-wow-delay="0.6s" class="education-item-top wow fadeInRight">2021. CBT форум 2021 </div>
+                            </div>
                         </div>
 
                         <div class="education-block-flex-item-bottom">
-                            <h2>В данный момент повышаю квалификацию: </h2>
-                            <p>2022. Ассоциация когнитивно-поведенческой психотерапии. Когнитивно-поведенческая психотерапия и психологическое консультирование. Продвинутый курс.  </p>
-                            <p>2022. Высшая школа психологии. Схема-терапия. Сертификационный курс по стандартам ISST — международного общества схема терапии.</p>
+                            <h2 data-wow-delay="0.3s" class="wow fadeInRight">В данный момент повышаю квалификацию: </h2>
+                            <p data-wow-delay="0.6s" class="wow fadeInRight">2022. Ассоциация когнитивно-поведенческой психотерапии. Когнитивно-поведенческая психотерапия и психологическое консультирование. Продвинутый курс.  </p>
+                            <p data-wow-delay="0.9s" class="wow fadeInRight">2022. Высшая школа психологии. Схема-терапия. Сертификационный курс по стандартам ISST — международного общества схема терапии.</p>
 
                         </div>
                     </div>
@@ -118,9 +151,89 @@
             </div>
         </div>
 
-        <div class="conditions-block">
+        <div id="conditions" class="conditions-block">
             <div class="container">
-                
+                <div class="conditions-block-flex">
+                    <div class="conditions-block-flex-item">
+                        <h2 data-wow-delay="0.3s" class="wow fadeInLeft">
+                            Стоимость сессии 
+                        </h2>
+                        <p data-wow-delay="0.6s" class="wow fadeInLeft">
+                            Стоимость сессии 3000 ₽. Длительность — 50 минут. Стоимость может меняться, о чем я сообщаю заранее. Если вы пришли в длительную терапию, цена фиксируется на календарный год и остается неизменной для вас на этот период.  
+
+                        </p>
+                        <p data-wow-delay="0.6s" class="wow fadeInLeft">
+                            Оплата сессии предварительная, минимум за 24 часа до ее начала или ранее. Отменить или перенести сессию без оплаты можно минимум за сутки — если предварительного предупреждения об отмене сессии не было, она оплачивается клиентом.  
+ 
+                        </p>
+                    </div>
+
+                    <div class="conditions-block-flex-item">
+                        <h2 data-wow-delay="0.3s" class="wow fadeInRight">
+                            Онлайн-консультирование  
+                        </h2>
+                        <p data-wow-delay="0.6s" class="wow fadeInRight">
+                            Для онлайн-консультации вам понадобится быстрый интернет, наушники с микрофоном и ноутбук (в смартфоне есть ряд технических ограничений, его желательно не использовать). Хорошо, если рядом с вами будет питьевая вода и салфетки.  
+
+                        </p>
+                        <p data-wow-delay="0.6s" class="wow fadeInRight">
+                             
+                            Обеспечьте себе спокойное место, где вас никто не услышит и не будет отвлекать. Важно, чтобы вы чувствовали себя безопасно. Хорошо, если  у вас будет возможность делать заметки в блокнот/смартфон.  
+
+                        </p>
+                    </div>
+
+                    <div class="conditions-block-flex-item">
+                        <h2 data-wow-delay="0.3s" class="wow fadeInLeft">
+                            Варианты мессенджеров:  
+                        </h2>
+                        <span data-wow-delay="0.6s" class="wow fadeInLeft"><b>Skype live</b>:.cid.83905f6c875cb6b0</span>
+                        <span data-wow-delay="0.6s" class="wow fadeInLeft"><b>Whatsapp</b> <a href="https://wa.me/79101663305">+79101663305</a></span>
+                        <span data-wow-delay="0.6s" class="wow fadeInLeft"><b>Telegram</b> <a href="https://tlgg.ru/@everyday365">@everyday365 </a></span>
+                    </div>
+
+                    <div class="conditions-block-flex-item">
+                        <h2 data-wow-delay="0.3s" class="wow fadeInRight">
+                            Личные встречи  
+                        </h2>
+                        <p data-wow-delay="0.6s" class="wow fadeInRight">
+                            Провожу сессии в Туле, по адресу пр. Ленина 35, БЦ «Вертикаль». В связи с тем, что я периодически бываю в отъезде, уточните о  возможности оффлайн консультирования предварительно.
+
+
+                        </p>
+                    </div>
+                    
+                </div>
             </div>
         </div>
+
+        <div id="contacts" class="contacts-block">
+            <div class="container">
+                <div class="contacts-block-flex">
+                    <div class="contacts-block-flex-item wow fadeInLeft">
+                        <img src="image/tg.svg" alt="">
+                        <span><a href="https://tlgg.ru/@everyday365">@everyday365 </a></span>
+                    </div>
+                    <div class="contacts-block-flex-item wow fadeInRight">
+                        <img src="image/wa.svg" alt="">
+                        <span><a href="https://wa.me/79101663305">+79101663305 </a></span>
+                    </div>
+                    <div class="contacts-block-flex-item wow fadeInLeft">
+                        <img src="image/mail.svg" alt="">
+                        <span><a href="mailto:katerina.baroeva@yandex.ru">katerina.baroeva@yandex.ru</a></span>
+                    </div>
+                    <div class="contacts-block-flex-item wow fadeInRight">
+                        <img src="image/inst.svg" alt="">
+                        <span><a href="https://instagram.com/katerina_baroeva">katerina_baroeva </a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+        <script src="js/main.js"></script>
+
 </body>
