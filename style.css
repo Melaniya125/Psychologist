@@ -134,7 +134,7 @@ ul.header-menu, .header-menu-flex {
     }
     .header-menu-flex {
         justify-content: flex-start;
-        padding-left: 60px;
+        padding-left: 20px;
         padding-top: 40px;
     }
     .header-menu-mobile-opener div{
@@ -186,7 +186,7 @@ ul.header-menu, .header-menu-flex {
     }
     .banner-info {
         align-items: flex-start;
-        padding: 25px 25px 40px 60px;
+        padding: 25px 20px 40px 20px;
     }
 }
 .about-block, .education-block, .conditions-block, .contacts-block {
