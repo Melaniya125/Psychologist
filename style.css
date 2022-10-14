@@ -250,6 +250,11 @@ ul.header-menu, .header-menu-flex {
         flex-direction: column;
     }
 }
+@media (max-width:523px) {
+    .about-block-flex {
+        padding: 71px 20px 43px 20px;
+    }
+}
 
 .education-block-flex-item {
     width: 66%;
@@ -328,6 +333,11 @@ ul.header-menu, .header-menu-flex {
         padding-bottom: 10px;
     }
 }
+@media (max-width:523px) {
+    .education-block-flex {
+        padding: 70px 20px 30px 20px;
+    }
+}
 
 .conditions-block-flex {
     display: flex;
@@ -364,6 +374,11 @@ ul.header-menu, .header-menu-flex {
     .conditions-block-flex {
         padding: 60px;
         font-size: 20px;
+    }
+}
+@media (max-width:523px) {
+    .conditions-block-flex {
+        padding: 60px 20px 60px 20px;
     }
 }
 .contacts-block-flex {
