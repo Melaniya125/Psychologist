@@ -25,6 +25,5 @@ $(function(){
         backgroundSize: "110%"
     });
     $(window).trigger("resize");
-    new WOW().init();
 
 });
