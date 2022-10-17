@@ -18,7 +18,7 @@ $(function(){
             trigger: ".about-block",
             start: "top top", // when the top of the trigger hits the top of the viewport
             end: "+=500", // end after scrolling 500px beyond the start
-            scrub: 2, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+            scrub: 0.5, // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
             marcers: true
         }, // start the animation when ".box" enters the viewport (once)
         height: 130,
